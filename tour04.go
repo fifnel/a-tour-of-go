@@ -1,3 +1,15 @@
 package main
 
-# http://go-tour-jp.appspot.com/#4
+// Packages
+// http://go-tour-jp.appspot.com/#4
+
+import (
+	"fmt"
+	"math/rand"
+	"time"
+)
+
+func main() {
+	rand.Seed(time.Now().Unix())
+	fmt.Println("My favorite number is ", rand.Intn(10))
+}
