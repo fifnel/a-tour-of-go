@@ -2,6 +2,9 @@ package main
 
 import "fmt"
 
+// Exercise: Fibonacci closure
+// http://go-tour-jp.appspot.com/#44
+
 func fibonacci() func() int {
 	n0 := 0
 	n1 := 1

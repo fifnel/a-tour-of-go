@@ -2,6 +2,9 @@ package main
 
 import "fmt"
 
+// Function closures
+// http://go-tour-jp.appspot.com/#43
+
 func adder() func(int) int {
 	sum := 0
 	return func(x int) int {
